@@ -97,9 +97,9 @@ for(j=1;j<n-i;j++) {
 이제 "*"을 만들면되는데
 별의 식은 (현재층-1)*2+1로 for문으로 보면 이렇게 나온다.
 ```java
-			for(k=1;k<=(i-1)*2+1;k++) {
-				System.out.print("*");
-			}
+	for(k=1;k<=(i-1)*2+1;k++) {
+		System.out.print("*");
+	}
 ```
 (위에 계산식으로 예시를 만들어보면<br>
 3를 입력<br>
@@ -109,14 +109,14 @@ for(j=1;j<n-i;j++) {
 그리고 입력받은 값을 for문으로 만들고 위에 있는 계산식들을 넣으면
 ```java
 for(i=0;i<=n;i++) {
-			for(j=1;j<=n-i;j++) {
-				System.out.print(" ");
-			}
-			for(k=1;k<=(i-1)*2+1;k++) {
-				System.out.print("*");
-			}
-			System.out.println();
-		}
+	for(j=1;j<=n-i;j++) {
+	System.out.print(" ");
+  }
+	for(k=1;k<=(i-1)*2+1;k++) {
+	System.out.print("*");
+  }
+	System.out.println();
+}
 ```
 완성
 
