@@ -101,8 +101,19 @@ for(j=1;j<n-i;j++) {
 			}
 ```
 (1-1)*2+1은 1로 별 1개가 나오고
-(2-1)*2+1은 3으로 별 3개가 나온다.
-
+(2-1)*2+1은 3으로 별 3개가 나온다.그리고 이작업을 b번만큼 반복시키면
+```java
+for(i=0;i<=n;i++) {
+			for(j=1;j<=n-i;j++) {
+				System.out.print(" ");
+			}
+			for(k=1;k<=(i-1)*2+1;k++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+```
+이렇게 나온다
 
 ### 실행화면
 ![image](https://user-images.githubusercontent.com/123055714/224196534-150470ba-3597-4d93-b27d-394e704aa699.png)
