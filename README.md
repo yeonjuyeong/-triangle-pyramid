@@ -53,11 +53,11 @@ public class Sungil21110_Test06 {
 			n = sc.nextInt();
 		}while(n<=0);
 		
-		for(i=0;i<n;i++) {
-			for(j=1;j<n-i;j++) {
+		for(i=0;i<=n;i++) {
+			for(j=1;j<=n-i;j++) {
 				System.out.print(" ");
 			}
-			for(k=0;k<i*2+1;k++) {
+			for(k=1;k<=(i-1)*2+1;k++) {
 				System.out.print("O");
 			}
 			System.out.println();
