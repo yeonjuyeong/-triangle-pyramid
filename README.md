@@ -109,6 +109,7 @@ for(j=1;j<n-i;j++) {
 (4-1)*2+1  7<br>
 (5-1)*2+1  9<br>
 이런식으로 나온다.
+그리고 입력받은 값을 for문으로 만들고 위에 있는 계산식들을 넣으면
 ```java
 for(i=0;i<=n;i++) {
 			for(j=1;j<=n-i;j++) {
@@ -120,7 +121,7 @@ for(i=0;i<=n;i++) {
 			System.out.println();
 		}
 ```
-
+완성
 
 ### 실행화면
 ![image](https://user-images.githubusercontent.com/123055714/224196534-150470ba-3597-4d93-b27d-394e704aa699.png)
