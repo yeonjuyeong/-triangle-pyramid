@@ -13,10 +13,10 @@ public class Sungil21110_Test05 {
 		
 		int n;
 		
-		System.out.println("삼각형 출력합니다");
+		System.out.println("직각삼각형 출력합니다");
 		
 		do {
-			System.out.print("몇단 삼각형입니까?");
+			System.out.print("몇단 직각삼각형입니까?");
 			n = sc.nextInt();
 		}while(n <= 0);
 		for(int i=1; i<=n; i++) {
