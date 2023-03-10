@@ -22,7 +22,7 @@ public class Sungil21110_Test05 {
 		for(int i=1; i<=n; i++) {
 			for (int j=1; j<=n-i; j++)
 				System.out.print("");
-			for(int a=0; a<(i-1)*2+1;a++) {
+			for(int a=1; a<(i-1)*2+1;a++) {
 			System.out.print("*");
 			}			
 			System.out.println();
@@ -31,6 +31,9 @@ public class Sungil21110_Test05 {
 
 }
 ```
+### 실행화면
+![image](https://user-images.githubusercontent.com/123055714/224196982-7820a91b-dbdc-405a-acd9-10f33eeee7e2.png)
+
 
 ### Pyramid
 
@@ -64,3 +67,6 @@ public class Sungil21110_Test06 {
 
 }
 ```
+
+### 실행화면
+![image](https://user-images.githubusercontent.com/123055714/224196534-150470ba-3597-4d93-b27d-394e704aa699.png)
